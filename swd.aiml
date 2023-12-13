@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>SOFTWARE DEVELOPER</pattern>
+        <template>I Think You Might Find a Career in Software Development Rewarding!
+        <br></br><br></br>
+        A software developer is a professional who designs, creates, tests, and maintains software applications and systems. 
+        They use programming languages and tools to turn software requirements into functional and high-performing software products.
+        <br></br><br></br>
+        <link>
+            <text>Click Here For More Information!</text>
+            <url>https://resources.workable.com/software-developer-job-description</url>
+        </link>
+        <button>
+            <text>Click here to explore other career choices in computer science!</text>
+            <postback>careers</postback>
+        </button>
+        <button>
+            <text>Click here to see which career might be right for you!.</text>
+            <postback>quiz</postback>
+        </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>SOFTWARE DEVELOPER CAR</pattern>
+        <template>A software developer is a professional who designs, creates, tests, and maintains software applications and systems. 
+        They use programming languages and tools to turn software requirements into functional and high-performing software products.
+        <br></br><br></br>
+            <link>
+                <text>Click Here For More Information!</text>
+                <url>https://resources.workable.com/software-developer-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices in computer science!</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Click here to see which career might be right for you!.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

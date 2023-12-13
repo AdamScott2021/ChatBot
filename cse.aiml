@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>CYBER SECURITY</pattern>
+        <template>I Think You Might Find a Career in Cyber Security Rewarding!
+        <br></br><br></br>
+        A cybersecurity expert is a professional who specializes in protecting computer systems, networks, and data from unauthorized access, theft, and damage. 
+        They use a combination of technical and non-technical skills to identify and mitigate security risks, prevent cyberattacks, and respond to security incidents.
+        <br></br><br></br>
+        <link>
+            <text>Click Here For More Information!</text>
+            <url>https://resources.workable.com/cyber-security-specialist-job-description</url>
+        </link>
+        <button>
+            <text>Click here to explore other career choices in computer science!</text>
+            <postback>careers</postback>
+        </button>
+        <button>
+            <text>Click here to see which career might be right for you!.</text>
+            <postback>quiz</postback>
+        </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>CYBER SECURITY CAR</pattern>
+        <template> A cybersecurity expert is a professional who specializes in protecting computer systems, networks, and data from unauthorized access, theft, and damage. 
+        They use a combination of technical and non-technical skills to identify and mitigate security risks, prevent cyberattacks, and respond to security incidents.
+        <br></br><br></br>
+            <link>
+                <text>Click Here For More Information!</text>
+                <url>https://resources.workable.com/cyber-security-specialist-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices in computer science!</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Click here to see which career might be right for you!.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

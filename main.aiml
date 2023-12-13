@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>*</pattern>
+            <template>
+                Hello! welcome to the WGU career assistance chat room, Its a pleasure to speak with you today. 
+                If youre interested in exploring careers in computer science please click "Begin".
+                Otherwise, you may close this window at any time.
+                <button>
+                    <text>Begin</text>
+                    <postback>Begin</postback>
+                </button>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>BEGIN</pattern>
+            <template>Would you like to learn about some potential careers in computer science 
+                      or would you like me to help you find a career that is right for you? 
+                      <button>
+                        <text>Show Me Potential Careers</text>
+                        <postback>Careers</postback>
+                      </button>
+                      <button>
+                          <text>Help Me Find One</text>
+                          <postback>Quiz</postback>
+                      </button>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>CAREERS</pattern>
+            <template>
+                <button>
+                    <text>Software Developer</text>
+                    <postback>software developer car</postback>
+                </button>
+                <button>
+                    <text>Cyber Security</text>
+                    <postback>Cyber Security car</postback>
+                </button>
+                <button>
+                    <text>Web Developer</text>
+                    <postback>web developer car</postback>
+                </button>
+                <button>
+                    <text>Database Administrator</text>
+                    <postback>database administrator car</postback>
+                </button>
+                <button>
+                    <text>Data Scientist</text>
+                    <postback>data scientist car</postback>
+                </button>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>QUIZ</pattern>
+            <template>In order to lead you in the right direction, ill first need to ask you a few questions!
+            <br></br><br></br>
+            Which of the following options do you find the most enjoyable?
+                <button>
+                    <text>Solving Complex Problems</text>
+                    <postback>web or software</postback>
+                </button>
+                <button>
+                    <text>Manipulating And Organizing Data Efficiently</text>
+                    <postback>database or data</postback>
+                </button>
+                <button>
+                    <text>Working With Linux Operating Systems</text>
+                    <postback>cyber</postback>
+                </button>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>WEB OR SOFTWARE</pattern>
+        <template>Do You Enjoy Artistic Design Oriented Work or Problem Solving Type of Development?
+            <button>
+                <text>Atristic Design</text>
+                <postback>web developer</postback>
+            </button>
+            <button>
+                <text>Problem Solving</text>
+                <postback>software developer</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DATABASE OR DATA</pattern>
+        <template> Do You Prefer Maintaining Databases or Working With Data To Solve Problems?
+            <button>
+                <text>Working with Data</text>
+                <postback>data scientist</postback>
+            </button>
+            <button>
+                <text>Maintaining Datbases</text>
+                <postback>database administrator</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CYBER</pattern>
+        <template>Do You Enjoy Networking and Secutity Related Fields?
+            <button>
+                <text>Yes</text>
+                <postback>cyber security</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>retry</postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RETRY</pattern>
+        <template>Hmm, Your Responses Didn't Seem To Provide a Result. Would You Like To Try Again?
+            <button>
+                <text>Yes</text>
+                <postback>quiz</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>exit</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>EXIT</pattern>
+            <template>No Worries, If You Change Your Mind Just Type "Begin". Otherwise You Can Exit This Session. Goodbye!</template>
+    </category>
+</aiml>

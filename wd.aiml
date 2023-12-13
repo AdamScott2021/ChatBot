@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>WEB DEVELOPER</pattern>
+        <template>I Think You Might Find a Career in Web Development Rewarding!
+        <br></br><br></br>
+        A web developer is a professional who designs, creates, and maintains websites and web applications. They use a combination of programming languages, 
+        frameworks, and tools to build and implement the front-end and back-end aspects of web-based systems.
+        <br></br><br></br>
+        <link>
+            <text>Click Here For More Information!</text>
+            <url>https://resources.workable.com/web-developer-job-description</url>
+        </link>
+        <button>
+            <text>Click here to explore other career choices in computer science!</text>
+            <postback>careers</postback>
+        </button>
+        <button>
+            <text>Click here to see which career might be right for you!.</text>
+            <postback>quiz</postback>
+        </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>WEB DEVELOPER CAR</pattern>
+        <template>A web developer is a professional who designs, creates, and maintains websites and web applications. They use a combination of programming languages, 
+        frameworks, and tools to build and implement the front-end and back-end aspects of web-based systems.
+        <br></br><br></br>
+            <link>
+                <text>Click Here For More Information!</text>
+                <url>https://resources.workable.com/web-developer-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices in computer science!</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Click here to see which career might be right for you!.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

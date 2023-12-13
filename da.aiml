@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>DATABASE ADMINISTRATOR</pattern>
+        <template>I Think You Might Find a Career in Database Administration Rewarding!
+        <br></br><br></br>
+        A database administrator is a professional who is responsible for the performance, security, and reliability of a database or databases. 
+        They manage, maintain, and configure database systems, ensuring they are operating efficiently and effectively.
+        <br></br><br></br>
+        <link>
+            <text>Click Here For More Information!</text>
+            <url>https://resources.workable.com/database-administrator-job-description</url>
+        </link>
+        <button>
+            <text>Click here to explore other career choices in computer science!</text>
+            <postback>careers</postback>
+        </button>
+        <button>
+            <text>Click here to see which career might be right for you!.</text>
+            <postback>quiz</postback>
+        </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>DATABASE ADMINISTRATOR CAR</pattern>
+        <template> A database administrator is a professional who is responsible for the performance, security, and reliability of a database or databases. 
+        They manage, maintain, and configure database systems, ensuring they are operating efficiently and effectively.
+        <br></br><br></br>
+            <link>
+                <text>Click Here For More Information!</text>
+                <url>https://resources.workable.com/database-administrator-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices in computer science!</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Click here to see which career might be right for you!.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>DATA SCIENTIST</pattern>
+        <template>I Think You Might Find a Career as a Data Scientist Rewarding!
+        <br></br><br></br>
+        Data Scientists use statistical analysis, machine learning, and data visualization techniques to extract insights and knowledge from structured 
+        and unstructured data with the goal of turning data into actionable insights that can inform decision-making and drive business value.
+        <br></br><br></br>
+        <link>
+            <text>Click Here For More Information!</text>
+            <url>https://resources.workable.com/data-scientist-job-description</url>
+        </link>
+        <button>
+            <text>Click here to explore other career choices in computer science!</text>
+            <postback>careers</postback>
+        </button>
+        <button>
+            <text>Click here to see which career might be right for you!.</text>
+            <postback>quiz</postback>
+        </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>DATA SCIENTIST CAR</pattern>
+        <template>Data Scientists use statistical analysis, machine learning, and data visualization techniques to extract insights and knowledge from structured 
+        and unstructured data with the goal of turning data into actionable insights that can inform decision-making and drive business value.
+        <br></br><br></br>
+            <link>
+                <text>Click Here For More Information!</text>
+                <url>https://resources.workable.com/data-scientist-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices in computer science!</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Click here to see which career might be right for you!.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
